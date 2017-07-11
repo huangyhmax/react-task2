@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import Basicdemo from './Basicdemo';
 import registerServiceWorker from './registerServiceWorker';
 
 // ReactDOM.render(<App />, document.getElementById('root'));
 // registerServiceWorker();
 
 ReactDOM.render(
-  <h1>Hello, world!</h1>,
-  document.getElementById('root')
+    <Basicdemo />,document.getElementById('container')
 );
